@@ -1,0 +1,163 @@
+@media screen and (max-width:768px){
+ 
+    .menu_rectangle{
+        width:470px;
+       left: 12%;
+
+        display: table-cell;
+        vertical-align: middle;
+        margin-top: 150px;
+    }
+    .menu_ourservice_text{
+        display: none;
+    }
+    .menu_profile_text{
+        left: 10%;
+    }
+    .menu_info_text{
+        left: 31%;
+        text-align: center;
+    }
+    .menu_contacts_text{
+        left: 66%;
+    }
+    .tron{
+        
+        margin-left: 7%;
+      
+    }
+    .under_tron_text{
+        margin-left:6%;
+  
+        
+    }
+    .title{
+        display: none;
+    }
+    
+    .title2{
+        text-align: center;
+        display:flex;
+        position:absolute;
+        width: 32ch;
+        height: -50px;
+        left: 15%;
+        top: 330px;
+        font-family: 'Courier New' , monospace;
+        font-style: normal;
+        font-weight: 40;
+        font-size: 22px;
+        color: var(--var-body-fc);
+        white-space: nowrap;
+        overflow: hidden;
+        animation: 
+ 
+        flashing-border 0.95s ease-in-out ;
+        }
+        @keyframes flashing-border{
+          0%{
+            opacity: 0;
+          }
+         
+          100%{
+            opacity: 100;
+          }
+        }
+       
+    .rect_car_sport{
+        width: 420px;
+        margin-top: 10px;
+       
+        left: 17%;
+    }
+    .rect_car_electro{
+        width: 420px;
+ 
+        height: 345.92px;
+        margin-top: 385.92px;
+        left:17%;
+    }
+    .icon2{
+        width: 100%;
+        top:30%;
+    }
+    .icon2_1{
+        display: none;
+    }
+    .rect2_electro{
+        width:400px;
+        height: 70px;
+        top: 2%;
+       left: 2%;
+ 
+    }
+    .electro_txt{
+        font-size: 66px;
+        left: -22.5%;
+        top:-65%;
+    }
+    .logo2{
+        width: 140px;
+        left:10px;
+        top: 70px;
+    }
+
+
+
+    .rect_car_family{
+        width: 420px;
+        height: 345.92px;
+        margin-top: 357.92px;
+        left:17%;
+        
+    }
+    .rect2_family{
+        top: 250px;
+        width:405px;
+        height: 90px;
+    }
+    .family_txt{
+        font-size: 90px;
+    
+    }
+    .logo4{
+        top:30px;
+        left: 20px;
+    }
+    .icon4{
+        top:-225px;
+        width:400px;
+        left:10px;
+    }
+    .icon5{
+        display: none;
+    }
+    .logo5{
+      display: none;  
+    }
+    .rect_car_business{
+        width: 420px;
+        height: 345.92px;
+        margin-top: 600.92px;
+        left:17%;
+    }
+    
+.icon3{
+    width: 100%;
+    top: 20%;
+}
+.rect2_business{
+    height: 70px;
+    width: 405px;
+    top: 78%;
+}
+.business_txt{
+    font-size: 62px;
+    margin-left: -22%;
+    margin-top:20%;
+}
+.logo3{
+    width: 180px;
+    left: 220px;
+}
+}
